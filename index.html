@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Agente de Saúde Virtual</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Arquivo CSS externo -->
+  <link rel="stylesheet" href="estilo/css.css" />
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Cabeçalho -->
+
+  <header class="navbar">
+    <div class="logo">
+      <img src="estilo/logo.png" style="width: 70px; height: 70px;" alt="Logo">
+    </div>
+
+    <nav class="menu">
+      <div><a style="margin-right: 40px ;" href="#">Início</a>
+        <a style="margin-right: 40px ;" href="#">Nossos Especialistas</a>
+        <a style="margin-right: 40px ;" href="#">Exames e Resultados</a>
+        <a style="margin-right: 40px ;" href="PgAreaCliente.html">Área do Cliente</a>
+      </div>
+      <a href="#" class="btn-medico">Sou médico</a>
+    </nav>
+
+
+
+    <div class="right-items">
+      <a href="PgLogin.html" class="btn-login">Login</a>
+      <a href="PgCadastroCliente.html" class="btn-contato">Cadastro</a>
+    </div>
+  </header>
+
+  <!-- Seção Hero -->
+  <section class="secao-hero">
+    <div class="container text-white caixa">
+      <h6>Bem-Vindo (a)</h6>
+      <h1 class="fw-bold">Ao seu agente de<br />saúde virtual</h1>
+      <p>Alugue ou compre o veículo ideal para sua jornada.</p>
+      <a href="PgCadastroCliente.html" class="btn botao-verde btn-banner">Cadastre-se</a>
+    </div>
+  </section>
+
+  <!-- Seção Qualidade -->
+  <section class="py-5">
+    <div class="container d-flex align-items-center flex-wrap caixa3" style="margin-top: 30px;">
+      <img src="estilo/online.jpg" style="width: 580px; height: 380px;" class="img-fluid col-md-6 img-online" />
+      <div class="col-md-6">
+        <h2 class="titulo-secao">Saúde de Qualidade ao Seu Alcance</h2>
+        <p class="secao">Tenha acesso a consultas médicas online com profissionais qualificados, visualize os resultados
+          dos seus
+          exames em tempo real e conte com um acompanhamento personalizado da sua saúde — <strong>tudo isso reunido em
+            um único e prático
+            ambiente digital, pensado para facilitar sua vida e cuidar do seu bem-estar.</strong>.</p>
+        <a href="#" class="btn botao-verde btn-online">Conheça Nossos Serviços</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Nossos Serviços -->
+  <section class="text-center py-5">
+    <div class="container">
+      <h2 class="titulo-secao caixa">Nossos Serviços</h2>
+      <p class="caixa">Como Podemos Ajudar Sua Saúde Hoje?</p>
+      <div class="row">
+
+        <div class="col-md-3 caixa-servico caixa">
+          <div class="icone-circulo"><img src="estilo/Consulta.png" style="width: 46px; height: 46px;"
+              alt="Consultas" /></div>
+          <h5>Consultas Online</h5>
+          <p>Visite nossos médicos e realize exames regularmente.</p>
+        </div>
+
+        <div class="col-md-3 caixa-servico caixa">
+          <div class="icone-circulo"><img src="estilo/exame.png" style="width: 46px; height: 46px;" alt="Agendamento" />
+          </div>
+          <h5>Agendamento de Exames</h5>
+          <p>Agilidade do curto ao longo prazo. Financiamento facilitado.</p>
+        </div>
+
+        <div class="col-md-3 caixa-servico caixa">
+          <div class="icone-circulo"><img src="estilo/encontrar.png"
+              style="width: 45px; height: 45px; margin-left: 5px;" alt="Anamnese" /></div>
+          <h5>Anamnese Inteligente</h5>
+          <p>Segurança com histórico e assistência 24/7.</p>
+        </div>
+
+        <div class="col-md-3 caixa-servico caixa">
+          <div class="icone-circulo"><img src="estilo/entrega.png" style="width: 47px; height: px; margin-left: 5px;"
+              alt="Entrega" /></div>
+          <h5>Entrega de Exames</h5>
+          <p>Confiabilidade digital com suporte especializado.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Como Funciona -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <center>
+            <h2 class="titulo-secao caixa2">Como Funciona</h2>
+          </center>
+          <div class="lista-icones caixa2">
+            <img src="estilo/cadastro.png" style="width: 54px; height: 54px" alt="Cadastro" />
+            <div><strong>Cadastro Rápido</strong>Crie sua conta em minutos e tenha acesso a todos os serviços.</div>
+          </div>
+          <div class="lista-icones caixa2">
+            <img src="estilo/anamnese.png" style="width: 50px; height: 50px" alt="Anamnese" />
+            <div><strong>Anamnese Digital</strong>Responda nosso questionário inteligente para direcionarmos seu caso
+              corretamente.</div>
+          </div>
+          <div class="lista-icones caixa2">
+            <img src="estilo/agenda.png" style="width: 49px; height: 49px" alt="Horários" />
+            <div><strong>Agendamento Flexível</strong>Escolha o horário que melhor se adapta à sua rotina.</div>
+          </div>
+          <div class="lista-icones caixa2">
+            <img src="estilo/atnd.png" style="width: 52px; height: 52px" alt="Atendimento" />
+            <div><strong>Atendimento Personalizado</strong>Receba atendimento humanizado e focado nas suas necessidades.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="URL_IMAGEM_FUNCIONAMENTO" class="img-fluid" alt="Funcionamento" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Por Que Escolher -->
+  <section class="py-5">
+    <div class="container d-flex align-items-center flex-wrap">
+      <img src="estilo/corpo.jpg" style="width: 580px; height: 380px;" alt="Corpo Humano"
+        class="img-fluid col-md-6 img-online caixa" />
+      <div class="col-md-6">
+        <h2 class="titulo-secao caixa">Por Que Escolher a MedAssist?</h2>
+        <div class="lista-icones caixa">
+          <img src="estilo/conexao.png" alt="Tecnologia" class="caixa" />
+          <div><strong>Tecnologia Integrada</strong> Plataforma intuitiva que conecta pacientes e médicos.</div>
+        </div>
+        <div class="lista-icones caixa">
+          <img src="estilo/fila.png" alt="Tempo" />
+          <div><strong>Redução de Tempo</strong> Elimine filas e esperas desnecessárias.</div>
+        </div>
+        <div class="lista-icones caixa">
+          <img src="estilo/prontuario.png" alt="Prontuário" />
+          <div><strong>Prontuário Eletrônico</strong> Dados sempre organizados e acessíveis.</div>
+        </div>
+        <div class="lista-icones caixa">
+          <img src="estilo/especialista.png" alt="Especialidades" />
+          <div><strong>Multi-especialidades</strong> Acesso a diversas áreas médicas em um só lugar.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Depoimentos -->
+  <section class="py-5 bg-light text-center">
+    <div class="container">
+      <h2 class="titulo-secao">O Que Nossos Pacientes Dizem</h2>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <div class="caixa-depoimento tamanho-depoimento">
+            <img src="URL_AVATAR_JOAO" alt="João" class="depoimento-avatar" />
+            <h5>João</h5>
+            <p>“Quero agradecer pelo excelente atendimento no site. A consulta foi prática, rápida e me senti muito bem
+              acolhido.”<br><small>— João M., 34 anos</small></p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="caixa-depoimento tamanho-depoimento">
+            <img src="URL_AVATAR_LUCAS" alt="Lucas" class="depoimento-avatar" />
+            <h5>Lucas</h5>
+            <p>“Achei o site muito fácil de usar e o atendimento foi top! Resolvi tudo rapidinho, sem sair de
+              casa.”<br><small>— Lucas R., 18 anos</small></p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="caixa-depoimento tamanho-depoimento">
+            <img src="URL_AVATAR_MARIA" alt="Maria" class="depoimento-avatar" />
+            <h5>Maria</h5>
+            <p>“Fiquei muito satisfeita com o atendimento. Foi tudo muito simples de usar e me senti segura durante toda
+              a consulta.”<br><small>— Maria Lúcia, 50 anos</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Final CTA -->
+  <section class="py-5">
+    <div class="container d-flex align-items-center flex-wrap">
+      <div class="col-md-6">
+        <h2 class="titulo-secao-final">Cuide da Sua Saúde Hoje Mesmo</h2>
+        <p>Nossa equipe está pronta para te atender com excelência e comodidade.</p>
+        <a href="#" class="btn botao-verde">Agende Sua Primeira Consulta</a>
+      </div>
+      <div class="col-md-6">
+        <img src="URL_IMAGEM_MEDICO" alt="Consulta Online" class="img-fluid" />
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row justify-content-center align-items-start g-5">
+
+        <!-- Logo + Redes sociais -->
+        <div class="col-md-3 text-center text-md-start footer-logo">
+          <img src="estilo/logo.png" alt="Saúde Já">
+          <div class="social-icons d-flex justify-content-md-start justify-content-center">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-facebook-f"></i>
+          </div>
+        </div>
+
+        <!-- Coluna: Empresa -->
+        <div class="col-md-2 footer-column">
+          <h5>Empresa</h5>
+          <ul>
+            <li><a href="">Somos</a></li>
+            <li><a href="">O que oferecemos</a></li>
+            <li><a href="">Investidores</a></li>
+            <li><a href="">Blog</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna: Serviços -->
+        <div class="col-md-2 footer-column">
+          <h5>Serviços</h5>
+          <ul>
+            <li><a href="">Viajar</a></li>
+            <li><a href="">Dirigir</a></li>
+            <li><a href="">Fazer entregas</a></li>
+            <li><a href="">Aluguéis</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna: Cidadania global -->
+        <div class="col-md-3 footer-column">
+          <h5>Cidadania global</h5>
+          <ul>
+            <li><a href="">Segurança</a></li>
+            <li><a href="">Sustentabilidade</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Rodapé final -->
+      <div class="footer-bottom">
+        Desenvolvido por Grupo 3 - ESTÁCIO - ANGRA | Todos os direitos reservados © 2025
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+<script src="script.js"></script>
+
+</html>
+
+<!-- OBSERVAÇÃO: Substitua todas as URLs marcadas como 'URL_...' pelas imagens reais -->

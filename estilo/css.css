@@ -1,0 +1,681 @@
+    /* Font Awesome (para os ícones) */
+    @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+    .nunito-uniquifier {
+      font-family: "Nunito", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    nav div a {
+      position: relative;
+    }
+
+    nav div a::after {
+      content: " ";
+      width: 0%;
+      height: 4px;
+      background-color: #8ac441;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transition: 0.5s ease-in-out;
+      border-radius: 3px;
+    }
+
+    nav a:hover::after {
+      width: 100%;
+
+
+    }
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 40px;
+      background: #fff;
+    }
+
+    .logo img {
+      height: 40px;
+    }
+
+    .menu {
+      display: flex;
+      align-items: center;
+      flex: 1;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: #0074c7;
+      font-weight: bold;
+      font-size: 14px;
+      margin-right: 20px;
+    }
+
+    .btn-contato {
+      background-color: #8ac441;
+      color: white !important;
+      padding: 6px 15px;
+      border-radius: 20px;
+      text-decoration: none;
+    }
+
+    .btn-contato:hover {
+
+      background-color: white;
+      color: #8ac441 !important;
+      border: #8ac441 solid 1px;
+      transition: 1000ms;
+      padding: 6px 15px;
+      border-radius: 20px;
+      text-decoration: none;
+
+    }
+
+    .btn-medico {
+      background-color: #FFF;
+      border: blue 1px solid;
+      color: blue !important;
+      padding: 6px 15px;
+      border-radius: 20px;
+      text-decoration: none;
+    }
+
+    .btn-medico:hover {
+
+      background-color: blue;
+      color: #FFF !important;
+      transition: 1000ms;
+      padding: 6px 15px;
+      border-radius: 20px;
+      text-decoration: none;
+
+    }
+
+    .btn-login {
+      background-color: #FFF;
+      color: #8ac441 !important;
+      padding: 6px 15px;
+      border-radius: 20px;
+      border: #8ac441 1px solid;
+      text-decoration: none;
+    }
+
+    .btn-login:hover {
+
+      background-color: #8ac441;
+      color: #FFF !important;
+      border: #8ac441 solid 1px;
+      transition: 1000ms;
+      padding: 6px 15px;
+      border-radius: 20px;
+      text-decoration: none;
+
+    }
+
+
+
+    .right-items {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .icon-wrapper {
+      border: 2px solid #0074c7;
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .icon::before {
+      content: "⚪";
+      /* Substituir por ícone real se necessário */
+      font-size: 12px;
+      color: #0074c7;
+    }
+
+
+
+    .secao-hero {
+      position: relative;
+      width: 100%;
+      max-width: 100%;
+      height: 100vh;
+      margin: 0 auto;
+      overflow: hidden;
+      background-image: url(imagem.webp);
+      /* Substitua pelo caminho real */
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      /* Centraliza verticalmente */
+      justify-content: flex-start;
+      /* Opcional: alinha à esquerda */
+      font-family: "Nunito", sans-serif;
+    }
+
+    .secao-hero::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to right, black, transparent);
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    .secao-hero .container {
+      position: relative;
+      z-index: 2;
+      padding: 2rem;
+      /* Espaçamento interno opcional */
+    }
+
+    .botao-verde {
+      background-color: #6CC24A;
+      color: white;
+      font-weight: bold;
+    }
+
+    .titulo-secao {
+      color: #007bff;
+      font-weight: bold;
+      font-family: "Nunito", sans-serif;
+      padding-bottom: 20px;
+    }
+
+    .secao {
+      margin-left: 40px;
+      font-family: "Nunito", sans-serif;
+      text-align: left;
+      font-size: 18px;
+    }
+
+    .img-online {
+      margin-right: 40px;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+
+    .btn-banner {
+
+      background-color: #8ac441;
+      color: white !important;
+      border-radius: 20px;
+      text-decoration: none;
+
+    }
+
+    .btn-banner:hover {
+
+      color: #8ac441 !important;
+      border: #8ac441 solid 1px;
+      transition: 1000ms;
+      border-radius: 20px;
+
+    }
+
+    .btn-online {
+      background-color: #8ac441;
+      color: white !important;
+      margin-left: 40px;
+      border-radius: 20px;
+      text-decoration: none;
+    }
+
+    .btn-online:hover {
+      margin-left: 40px;
+      color: #8ac441 !important;
+      border: #8ac441 solid 1px;
+      transition: 1000ms;
+      border-radius: 20px;
+    }
+
+    .icone-circulo {
+      width: 70px;
+      height: 70px;
+      background: #6CC24A;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      margin: auto;
+      margin-bottom: 15px;
+    }
+
+    .caixa {
+      opacity: 0;
+      filter: blur(15px);
+      transform: translateX(-100%);
+      transition: all 1s;
+    }
+
+    .caixa2 {
+      opacity: 0;
+      filter: blur(15px);
+      transform: translateX(100%);
+      transition: all 1s;
+    }
+
+    .caixa3 {
+      opacity: 0;
+      filter: blur(15px);
+      transition: all 1s;
+    }
+
+    .show {
+      opacity: 1;
+      filter: blur(0px);
+      transform: translateX(0);
+      transition: all 1s;
+
+    }
+
+    .caixa-servico {
+      text-align: center;
+      padding: 20px;
+
+    }
+
+    .lista-icones {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 40px;
+      font-family: "Nunito", sans-serif;
+    }
+
+    .lista-icones img {
+      width: 40px;
+    }
+
+    .lista-icones div strong {
+      display: block;
+    }
+
+    .caixa-depoimento {
+      background-color: #6CC24A;
+      color: white;
+      border-radius: 15px;
+      text-align: center;
+    }
+
+    .tamanho-depoimento {
+      width: 400px;
+      height: 210px;
+      padding: 20px;
+
+    }
+
+    .depoimento-avatar {
+      width: 60px;
+      margin-bottom: 15px;
+    }
+
+    .titulo-secao-final {
+      color: #007bff;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #8cc63f;
+      color: white;
+      font-family: 'Inter', sans-serif;
+      padding: 60px 40px;
+    }
+
+    footer {
+      background-color: #8cc63f;
+      color: white;
+      font-family: 'Inter', sans-serif;
+      padding: 60px 40px;
+    }
+
+    .footer-column h5 {
+      font-weight: 600;
+      color: #FFF;
+      margin-bottom: 10px;
+    }
+
+    .footer-column ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer-column li {
+      margin-bottom: 6px;
+      font-size: 15px;
+    }
+
+    .footer-column ul li a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .footer-logo img {
+      max-width: 150px;
+      height: auto;
+    }
+
+    .social-icons {
+      margin-top: 8px;
+    }
+
+    .social-icons i {
+      font-size: 20px;
+      margin-right: 16px;
+      padding-left: 20px;
+      color: white;
+      cursor: pointer;
+      transition: opacity 0.3s ease;
+    }
+
+    .social-icons i:hover {
+      opacity: 0.7;
+    }
+
+    .footer-bottom {
+      font-size: 10px;
+      font-weight: 300;
+      margin-top: 40px;
+      text-align: center;
+      color: #FFF;
+    }
+
+    #body-login {
+      background-color: #8ac441;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Nunito", sans-serif;
+    }
+
+    .cartao-login {
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      overflow: hidden;
+      max-width: 800px;
+      width: 100%;
+    }
+
+    .lado-esquerdo {
+      background-color: #fff;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #texto-esquerdo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .lado-esquerdo img {
+      width: 40%;
+      height: 100%;
+      margin-bottom: 0;
+    }
+
+    .lado-direito {
+      padding: 3rem;
+      position: relative;
+    }
+
+    .botao-login {
+      background-color: #8ac441;
+      border: none;
+    }
+
+    .botao-login:hover {
+      background-color: #00c48a;
+    }
+
+    .texto-ajuda {
+      position: absolute;
+      top: 15px;
+      right: 20px;
+      font-size: 0.9rem;
+    }
+
+    .texto-esquecido {
+      font-size: 0.85rem;
+      text-align: right;
+    }
+
+    /*Pagina Cliente*/
+
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 40px;
+    }
+
+    .logo img {
+      height: 80px;
+    }
+
+    .banner {
+      background-image: url('https://via.placeholder.com/1200x250?text=Banner+Paciente');
+      background-size: cover;
+      background-position: center;
+      border-radius: 10px;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      padding: 30px;
+      color: white;
+    }
+
+    .banner h2 {
+      font-weight: 600;
+    }
+
+    .quick-access {
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+
+    .quick-access h4 {
+      margin-bottom: 70px;
+      color: #5c9635;
+      font-weight: 600;
+    }
+
+    .card-option {
+      border: 1px solid #8cc63f;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      color: #5c9635;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      background: white;
+    }
+
+    .card-option i {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .card-option:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.6s ease;
+    }
+
+    .fade-in.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .html1 {
+      scroll-behavior: smooth;
+    }
+
+    .frases {
+      width: 100%;
+      padding: 50px 20px;
+      max-width: 900px;
+    }
+
+    .frases i {
+      font-size: 90px;
+      color: #CCC;
+    }
+
+    .frases .frase-txt p {
+      font-weight: 300;
+      margin-bottom: 40px;
+    }
+
+
+
+    /*Página Cadastro*/
+
+    .body3 {
+
+      font-family: "Nunito", sans-serif;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #8ac441;
+      padding: 0 30px;
+    }
+
+    .container-cadastro {
+      max-width: 480px;
+      width: 100%;
+      background: #FFF;
+      padding: 35px 40px;
+      border-radius: 6px;
+      box-shadow: rgba(0, 0, 0, 0.2)
+    }
+
+    .container-cadastro .input-box {
+      position: relative;
+      height: 60px;
+      margin: 25px 0;
+    }
+
+    .input-box input {
+      height: 100%;
+      width: 100%;
+      background: #FFF;
+      color: #333;
+      font-size: 18px;
+      font-weight: 500;
+      outline: none;
+      border-radius: 6px;
+      padding: 0 40px 0 16px;
+      border: 2px solid #8ac441;
+      transition: all 0.3s ease;
+    }
+
+    .input-box input:focus {
+      border-color: #8ac441;
+    }
+
+    .input-box label,
+    .input-box i {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #a6a6a6;
+    }
+
+    .input-box label {
+      left: 15px;
+      font-size: 18px;
+      font-weight: 400;
+      background: #FFF;
+      padding: 0 6px;
+      pointer-events: none;
+      transition: all 0.3s ease;
+    }
+
+    .input-box input:focus~label,
+    .input-box input:valid~label {
+      top: 0;
+      color: #8ac441;
+      font-size: 14px;
+    }
+
+    .input-box i {
+      right: 15px;
+      padding: 8px;
+      cursor: pointer;
+    }
+
+    .alert {
+      display: flex;
+      align-items: center;
+      margin-top: -13px;
+    }
+
+    .alert .errorIcon {
+      margin-right: 8px;
+      color: #d93025;
+      font-size: 18px;
+      display: none;
+    }
+
+    .alert .text {
+      color: #a6a6a6;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+
+    .input-box.button #button {
+      background: #8ac441;
+      border: none;
+      font-size: 20px;
+      color: #FFF;
+      letter-spacing: 1px;
+      cursor: not-allowed;
+    }
+
+    .input-box.button #button.active:hover {
+      background: #FFF;
+      cursor: pointer;
+      background: #FFF;
+      border: solid 1px #8ac441;
+      color: #8ac441;
+    }

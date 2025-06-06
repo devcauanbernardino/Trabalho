@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+python-dotenv
+# Adicione o driver do seu banco de dados, por exemplo:
+psycopg2-binary (para PostgreSQL)
+pymysql (para MySQL)
+sqlite3 (já vem com Python)
