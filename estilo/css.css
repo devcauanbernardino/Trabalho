@@ -679,3 +679,9 @@
       border: solid 1px #8ac441;
       color: #8ac441;
     }
+
+    @media screen and (max-width: 768px) {
+      .navbar {
+        display: block;
+      }
+    }
