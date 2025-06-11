@@ -136,7 +136,7 @@ nav a:hover::after {
 
 #frente {
     height: 100vh;
-    background-image: url(../estilo/medico-frente.jpg);
+    background-image: url(../img/medico-frente.jpg);
     background-size: cover;
     background-position: center top;
     display: flex;
